@@ -1,5 +1,5 @@
 function mediaCalculator(...n) {
-    let somma = n.reduce((tot, el)=> tot + el);
+    let somma = n.reduce((acc, num)=> acc + num);
     console.log("tot = ", somma);
     
     let media = somma / n.length;
